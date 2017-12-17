@@ -1,0 +1,39 @@
+<!-- 
+	license=许可证，license决定程序运行模式，分别有client、professional、enterprise、server
+	mode=模式，可以指定运行模式，高权限可以运行低权限模式，反之不行
+!-->
+<login license="" mode="client">
+	<!-- 
+		id=经纪商ID，唯一
+		user=默认登录账号
+		password=密码，配置了password就自动登录
+		type=账号类型,和具体的数据处理器一致，比如CTP
+	!-->
+	<broker>
+		<broker id="" name="主行情提供商">
+			<server name="上海电信">
+				<serve name="admin" ip="127.0.0.1" port="808" type="Register">
+				</server>
+			</server>
+		</broker>
+		<broker id="9000" name="广发期货主席9000_CTP" type="CTP">
+			<server name="上海电信">
+				<serve name="admin" ip="127.0.0.1" port="808" type="CTP">
+				</server>
+			</server>
+		</broker>
+	</broker>
+	
+	<user>
+		<user id="" name="" password="" type="Register">
+		</user>
+	</user>
+	
+	<!-- 
+		strategy=策略，定义登录认证完后运行多少独立策略实例，这些策略将运行在与其他独立策略以及主程序界面隔离的专有通道上，从而确保策略的高效稳定运行
+	!-->
+	<strategy>
+		<strategy name="MyMACD">
+		</strategy>
+	</strategy>
+</login>
