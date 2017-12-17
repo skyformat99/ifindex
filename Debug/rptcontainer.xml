@@ -1,0 +1,6 @@
+<Container>
+	<Pane name="Report" rect="0,0,100,100" style="193">
+	</Pane>
+	<Report name="Report" style="0x56000000">
+	</Report>
+</Container>

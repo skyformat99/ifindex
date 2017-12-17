@@ -1,0 +1,185 @@
+<mainfrm>
+	<cmdlist>
+			<!--cmd 
+						cmdid=命令ID(0为调用命令行,其他系统内部命令id) 
+						cmdline=命令行 
+						>
+			</!-->
+			<cmd name="login", cmdid="1" cmdline="login"/>
+			<cmd name="hs", cmdid="15005"/>
+			<cmd name="spjs", cmdline="setting"/>
+			<cmd name="sgw", cmdid="15006"/>
+			<cmd name="", cmdid="15008"/>
+			<cmd name="", cmdid="15009"/>
+			<cmd name="exit", cmdid="1" cmdline="exit"/>
+			<cmd name="selfstk", cmdid="1" cmdline="RPT_MARKET kind=selfstk"/>
+			<cmd name="hshq", cmdid="1" cmdline="RPT_MARKET kind=hs"/>
+			<cmd name="bkhq", cmdid="1" cmdline="BKZS"/>
+			<cmd name="hkhq", cmdid="1" cmdline="RPT_MARKET kind=hk"/>
+			<cmd name="cfhq", cmdid="1" cmdline="RPT_MARKET kind=cf"/>
+			<cmd name="qhhq", cmdid="1" cmdline="RPT_MARKET kind=qh"/>
+		  <cmd name="qqhq", cmdid="1" cmdline="[M:VIEWTYPE] kind=qq"/>
+			<cmd name="zshq", cmdid="1" cmdline="RPT_MARKET kind=zs"/>
+			<cmd name="fxhq", cmdid="1" cmdline="RPT_MARKET kind=fx"/>
+			<cmd name="gshq", cmdid="1" cmdline="RPT_MARKET kind=gs"/>
+			<cmd name="", cmdid="20055"/>
+			<cmd name="COMBIN", cmdid="1" cmdline="COMBIN"/>
+			<cmd name="", cmdid="20036"/>
+			<cmd name="", cmdid="20037"/>
+			<cmd name="", cmdid="20040"/>
+			<cmd name="", cmdid="20038"/>
+			<cmd name="help", cmdid="3" cmdline="http://4xhelp.qianlong.com.cn/clienthelp/help.htm"/>
+			<cmd name="", cmdid="15026"/>
+			<cmd name="", cmdid="15031"/>
+			<cmd name="feedback", cmdid="3" cmdline="http://4xsupport.qianlong.com.cn:8081/feedback/feedback.htm"/>
+			<cmd name="about", cmdid="0xe140"/>
+	</cmdlist>
+	<toolbar>
+			<menu>
+				<menu name="系统" style="0x10" auth="37">
+					<menu name="登录" style="0x00" cmd="login"/>
+					<!--<menu name="重新初始化" style="0x00" cmd="15005"/>
+					<menu name="" style="0x800"/>
+					<menu name="设置" style="0x00" cmd="setting"/>
+					<menu name="数据管理" style="0x00" cmd="15006"/>
+					<menu name="" style="0x800"/>
+					<menu name="打印" style="0x00" cmd="15008"/>
+					<menu name="打印设置" style="0x00" cmd="15009"/>
+					<menu name="" style="0x800"/>!-->
+					<menu name="退出" style="0x00" cmd="exit"/>
+				</menu>
+				<!--<menu name="行情分类" style="0x10">
+					<menu name="我的自选" style="0x00" cmd="selfstk"/>
+					<menu name="" style="0x800"/>
+					<menu name="沪深行情" style="0x00" cmd="hshq"/>
+					<menu name="板块指数" style="0x00" cmd="BKZS"/>
+					<menu name="港股行情" style="0x00" cmd="hk"/>
+					<menu name="" style="0x800"/>
+					<menu name="金融期货" style="0x00" cmd="jrqh"/>
+					<menu name="商品期货" style="0x00" cmd="spqh"/>
+			    <menu name="期权行情" style="0x00" cmd="qqhq"/>
+					<menu name="" style="0x800"/>
+					<menu name="环球指数" style="0x00" cmd="zs"/>
+					<menu name="国际外汇" style="0x00" cmd="fx"/>
+					<menu name="贵金属" style="0x00" cmd="gjs"/>
+					<menu name="" style="0x800"/>
+					<menu name="综合排名" style="0x00" cmd="20055"/>
+					<menu name="新建板块" style="0x00" cmd="COMBIN"/>
+				</menu>!-->
+				<menu name="图表分析">
+					<menu name="美国线" cmd="barline" style="0x00" image="14"/>
+					<menu name="蜡烛线" cmd="kline" style="0x00" image="15"/>
+					<menu name="走势线" cmd="trendline" style="0x00" image="16"/>
+					<menu name="" style="0x800"/>
+					<menu name="放大" cmd="larger" image="17"/>
+					<menu name="缩小" cmd="smaller" image="18"/>
+					<menu name="" style="0x800"/>
+					<menu name="参考线" cmd="auto" style="0x00" image="19"/>
+					<menu name="成交量" cmd="shift" style="0x00" image="20"/>
+					<menu name="自动滚动" cmd="auto" style="0x00" image="19"/>
+					<menu name="平移图表" cmd="shift" style="0x00" image="20"/>
+					<menu name="" style="0x800"/>
+					<menu name="分析周期" cmd="206" style="0x00" image="49"/>
+					<menu name="" style="0x800"/>
+					<menu name="技术指标" cmd="205" style="0x00" image="48"/>
+					<menu name="对象" cmd="206" style="0x00" image="49"/>
+					<menu name="模版" cmd="207" style="0x00" image="50"/>
+				</menu>
+				<menu name="交易">
+					<menu name="新订单" cmd="57454" image="9"/>
+				</menu>
+				<!--<menu name="智能" style="0x10">
+					<menu name="公式管理" style="0x00" cmd="20036"/>
+					<menu name="智能选股" style="0x00" cmd="20037"/>
+					<menu name="动态警示" style="0x00" cmd="20040"/>
+					<menu name="交易测试" style="0x00" cmd="20038"/>
+				</menu>
+				<menu name="特色">
+		  		<menu name="视频教室" style="0x00" cmd="spjs"/>
+		  		<menu name="" style="0x800"/>
+		  		<menu name="新股王" style="0x00" cmd="xgw"/>
+		  		<menu name="金融计算器" style="0x00" cmd="jrjsq"/>
+				</menu>!-->
+				<menu name="帮助" style="0x10">
+					<!--<menu name="操作说明" style="0x00" cmd="3"/>
+					<menu name="" style="0x800"/>!-->
+					<menu name="官方主页" style="0x00" cmd="15026"/>
+					<menu name="进入论坛" style="0x00" cmd="15031"/>
+					<menu name="意见反馈" style="0x00" cmd="3"/>
+					<menu name="" style="0x800"/>
+					<menu name="关于" style="0x00" cmd="about"/>
+				</menu>
+		</menu>
+		<toolbar name="general" break="1">
+				<item name="" tip="向后" cmd="57445" style="16" image="2"/>
+				<item name="" tip="向前" cmd="57446" style="24" image="3"/>
+				<item name="" tip="刷新" cmd="57447" image="5"/>
+				<item name="" tip="主页" cmd="57448" image="6"/>
+				<item name="" tip="报表行情" cmd="57449" style="24" image="53"/>
+				<item name="" tip="技术分析" cmd="57450" style="24" image="52"/>
+				<item name="" tip="搜索" cmd="57451" image="7"/>
+				<item name="" style="1"/>
+				<item name="新订单" tip="新增交易订单" cmd="61863" image="9"/>
+				<item name="智能交易" tip="开启智能交易系统，允许智能交易" cmd="57455" style="18" image="13"/>
+		</toolbar>
+		<toolbar name="chart" style="1442847054" exstyle="0">
+				<item tip="美国线" cmd="barline" style="22" image="14"/>
+				<item tip="蜡烛线" cmd="kline" style="22" image="15"/>
+				<item tip="走势线" cmd="trendline" style="22" image="16"/>
+				<item name="" style="1"/>
+				<item name="" tip="放大" cmd="larger" image="17"/>
+				<item name="" tip="缩小" cmd="smaller" image="18"/>
+				<item name="" style="1"/>
+				<item name="" tip="自动滚动" cmd="auto" style="18" image="19"/>
+				<item name="" tip="平移图表" cmd="shift" style="18" image="20"/>
+				<item name="" style="1"/>
+				<item name="" tip="技术指标" cmd="205" style="144" image="48"/>
+				<item name="" tip="模版" cmd="207" style="144" image="50"/>
+		</toolbar>
+		<toolbar name="Draw" break="1">
+				<item tip="鼠标" cmd="NOLINE" style="22" image="21"/>
+				<item tip="两点直线" cmd="DDLINE" style="22" image="21"/>
+				<item tip="两点线段" cmd="DOTDOT" style="22" image="22"/>
+				<item tip="两点射线" cmd="RADIALLINE" style="22" image="23"/>
+				<item tip="平行线" cmd="PLINE" style="22" image="24"/>
+				<item tip="栅形线" cmd="BARLINE" style="22" image="25"/>
+				<item tip="百分比线" cmd="PERLINE" style="22" image="26"/>
+				<item tip="甘氏线" cmd="GUNSLINE" style="22" image="27"/>
+				<item tip="正弦线" cmd="SINLINE" style="22" image="28"/>
+				<item tip="圆" cmd="CIRCLE" style="22" image="29"/>
+				<item tip="多圆" cmd="MULTIELLIPSE" style="22" image="30"/>
+				<item tip="圆弧" cmd="ELLIPSEARC" style="22" image="31"/>
+				<item tip="多圆弧" cmd="MULTIARC" style="22" image="32"/>
+				<item tip="矩形" cmd="RECTANGLE" style="22" image="33"/>
+				<item tip="文字" cmd="TEXT" style="22" image="34"/>
+				<item tip="上箭头" cmd="UPARROW" style="22" image="35"/>
+				<item tip="下箭头" cmd="DOWNARROW" style="22" image="36"/>
+				<item tip="黄金分割线" cmd="GOLDLINE" style="22" image="37"/>
+				<item tip="神秘黑洞" cmd="BLACKHOLE" style="22" image="38"/>
+				<item tip="弧度黄金线" cmd="GOLDARC" style="22" image="39"/>
+				<item tip="费波纳契周期线" cmd="FABCYCLELINE" style="22" image="40"/>
+				<item tip="周期线" cmd="CYCLELINE" style="22" image="41"/>
+				<item tip="箱体线" cmd="STOCKBOX" style="22" image="42"/>
+				<item tip="线性回归" cmd="REGRESSLINE" style="22" image="43"/>
+				<item tip="线性回归带" cmd="REGRESSZONE" style="22" image="44"/>
+				<item tip="回归通道" cmd="REGRESSCHANNEL" style="22" image="45"/>
+				<item tip="速阻线" cmd="SUZULINE" style="22" image="46"/>
+		</toolbar>
+		<toolbar name="Period" imagelist="no">
+				<item name="Tick" cmd="Tick" style="22"/>
+				<item name="5S" cmd="5S" style="22"/>
+				<item name="15S" cmd="15S" style="22"/>
+				<item name="1M" cmd="1M" style="22"/>
+				<item name="5M" cmd="5M" style="22"/>
+				<item name="15M" cmd="15M" style="22"/>
+				<item name="30M" cmd="30M" style="22"/>
+				<item name="1H" cmd="1H" style="22"/>
+				<item name="4H" cmd="4H" style="22"/>
+				<item name="1D" cmd="1D" style="22"/>
+				<item name="1W" cmd="1W" style="22"/>
+				<item name="MN" cmd="MN" style="22"/>
+		</toolbar>
+	</toolbar>
+	<childview>
+	</childview>
+</mainfrm>

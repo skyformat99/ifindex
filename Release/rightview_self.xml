@@ -1,0 +1,16 @@
+<RightView style="0x56000000">
+		<Pane rect="0,0,284,568" style="62">
+			<Pane name="TitleView" rect="0,0,284,10" style="196" />
+			<Pane name="MmpView" rect="0,11,284,100" style="196" />
+			<Pane name="InfoView" rect="0,101,284,201" style="196" />
+			<Pane name="Self" rect="0,202,284,568" style="204" />
+		</Pane>
+		<TitleView name="TitleView" style="0x56000000">
+		</TitleView>
+		<MmpView name="MmpView" style="0x56000000">
+		</MmpView>
+		<InfoView name="InfoView" style="0x56000000">
+		</InfoView>
+		<ReportView name="Self" style="0x56001405">
+		</ReportView>
+</RightView>

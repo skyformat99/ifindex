@@ -1,0 +1,56 @@
+<root>
+	<menu>
+		<!--menu 
+					name=显示名称 
+					style=风格
+					cmdid=命令ID(0为调用命令行接口,1为Shell执行,2为Shell打开等,其他系统内部命令id) 
+					cmdline=命令行(cmdtype不为系统内部命令id时有效) 
+					>
+		</!-->
+		<menu name="系统" style="0x10" auth="37">
+			<menu name="登录" style="0x00" cmdid="1" cmdline="login"/>
+			<menu name="重新初始化" type="0x00" cmdid="15005"/>
+			<menu name="" style="0x800"/>
+			<menu name="设置" style="0x00" cmdid="setting"/>
+			<menu name="数据管理" style="0x00" cmdid="15006"/>
+			<menu name="" style="0x800"/>
+			<menu name="打印" style="0x00" cmdid="15008"/>
+			<menu name="打印设置" style="0x00" cmdid="15009"/>
+			<menu name="" style="0x800"/>
+			<menu name="退出" style="0x00" cmdid="1" cmdline="exit"/>
+		</menu>
+		<menu name="行情交易" style="0x10">
+			<menu name="我的自选" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=selfstk"/>
+			<menu name="" style="0x800"/>
+			<menu name="沪深行情" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=hs"/>
+			<menu name="板块指数" style="0x00" cmdid="1" cmdline="BKZS"/>
+			<menu name="港股行情" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=hk"/>
+			<menu name="" style="0x800"/>
+			<menu name="金融期货" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=jrqh"/>
+			<menu name="商品期货" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=spqh"/>
+	    <menu name="期权行情" style="0x00" cmdid="1" auth="44|45" cmdline="[M:VIEWTYPE] kind=qqhq"/>
+			<menu name="" style="0x800"/>
+			<menu name="环球指数" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=zs"/>
+			<menu name="国际外汇" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=fx"/>
+			<menu name="贵金属" style="0x00" cmdid="1" cmdline="RPT_MARKET kind=gjs"/>
+			<menu name="" style="0x800"/>
+			<menu name="综合排名" style="0x00" cmdid="20055"/>
+			<menu name="新建板块" style="0x00" cmdid="1" cmdline="COMBIN"/>
+		</menu>
+		<menu name="智能编程" style="0x10">
+			<menu name="公式管理" style="0x00" cmdid="20036"/>
+			<menu name="智能选股" style="0x00" cmdid="20037"/>
+			<menu name="动态警示" style="0x00" cmdid="20040"/>
+			<menu name="交易测试" style="0x00" cmdid="20038"/>
+		</menu>
+		<menu name="帮助" style="0x10">
+			<menu name="操作说明" style="0x00" cmdid="3" cmdline="http://blog.csdn.net/zhangzq86"/>
+			<menu name="" style="0x800"/>
+			<menu name="官方主页" style="0x00" cmdid="15026"/>
+			<menu name="进入论坛" style="0x00" cmdid="15031"/>
+			<menu name="意见反馈" style="0x00" cmdid="3" cmdline="http://blog.csdn.net/zhangzq86"/>
+			<menu name="" style="0x800"/>
+			<menu name="关于" style="0x00" cmdid="15034"/>
+		</menu>
+	</menu>
+</root>

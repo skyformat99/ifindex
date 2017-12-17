@@ -1,0 +1,38 @@
+<Container style="0x56000000">
+	<Pane rect="0,0,1072,694" style="193">
+		<Pane rect="0,0,787,694" style="62">
+			<Pane name="TechView" rect="0,0,787,694" style="62" />
+			<Pane rect="0,594,787,594" style="196" />
+		</Pane>
+		<Pane name="RightView" rect="788,0,1072,694" style="56" />
+	</Pane>
+	<TechView name="TechView" style="0x56000000">
+		<Pane rect="0,0,787,694" style="62">
+			<Pane name="Main" rect="0,0,787,440" style="204" />
+			<Pane name="Volume" rect="0,441,787,524" style="196" />
+			<Pane name="MACD" rect="0,525,787,608" style="196" />
+			<Pane name="KDJ" rect="0,609,787,694" style="196" />
+		</Pane>
+		<MainIndicator name="Main" style="0x56000000">
+			<Indicator name="K"></Indicator>
+			<!--<Indicator name="MA" ma_period="5" ma_method="0" applied_price="0" shift="3">
+				<Index color="255,255,255" />
+			</Indicator>
+			<Indicator name="MA" ma_period="20" ma_method="0" applied_price="0" color1="0,255,0"></Indicator>
+			<Indicator name="MA" ma_period="60" ma_method="0" applied_price="0" color1="0,0,255"></Indicator>
+			<Indicator name="BOLL" ></Indicator>-->
+			<Indicator name="Ichimoku" ></Indicator>
+		</MainIndicator>
+		<WndIndicator name="Volume" style="0x56000000">
+			<Indicator name="Volume"></Indicator>
+		</WndIndicator>
+		<WndIndicator name="MACD" style="0x56000000">
+			<Indicator name="MyMACD" ></Indicator>
+		</WndIndicator>
+		<WndIndicator name="KDJ" style="0x56000000">
+			<Indicator name="KDJ" ></Indicator>
+		</WndIndicator>
+	</TechView>
+	<RightView name="RightView" style="0x56000000">
+	</RightView>
+</Container>

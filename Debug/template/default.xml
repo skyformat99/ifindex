@@ -1,0 +1,21 @@
+<root>
+		<Pane rect="0,0,787,608" style="62">
+			<Pane name="Main" rect="0,0,787,440" style="204" />
+			<Pane name="Volume" rect="0,441,787,524" style="196" />
+			<Pane name="MACD" rect="0,525,787,608" style="196" />
+		</Pane>
+		<MainIndicator name="Main" style="0x56000000">
+			<Indicator name="K"></Indicator>
+			<Indicator name="MA" ma_period="5" ma_method="0" applied_price="0" />
+			<Indicator name="MA" ma_period="20" ma_method="0" applied_price="0" />
+			<Indicator name="MA" ma_period="60" ma_method="0" applied_price="0" />
+			<Indicator name="MA" ma_period="120" ma_method="0" applied_price="0" />
+			<Indicator name="MA" ma_period="250" ma_method="0" applied_price="0" />
+		</MainIndicator>
+		<WndIndicator name="Volume" style="0x56000000">
+			<Indicator name="Volume"></Indicator>
+		</WndIndicator>
+		<WndIndicator name="MACD" style="0x56000000">
+			<Indicator name="MACD" ></Indicator>
+		</WndIndicator>
+</root>
